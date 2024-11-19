@@ -1,7 +1,8 @@
-public class Truck {
+public class Truck extends Traffic {
 
-    public String modelName;
-    public int wheelsCount;
+    public Truck(String modelName, int wheelsCount) {
+        super(modelName, wheelsCount);
+    }
 
     public void updateTyre() {
         System.out.println("Меняем покрышку");
