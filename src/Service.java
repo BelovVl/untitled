@@ -5,3 +5,5 @@ public interface Service {
 
     void check(Truck truck);
 }
+
+
